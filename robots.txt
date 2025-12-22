@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://стиралка64.рф/sitemap.xml
+
