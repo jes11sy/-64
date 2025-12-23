@@ -703,3 +703,34 @@ body {
         margin-bottom: 30px;
     }
 }
+
+/* Коррекция выравнивания телефона в мобильном меню */
+@media screen and (max-width: 640px) {
+    #rec481056998 .tn-elem[data-elem-id="1660824545943"] {
+        left: 72px !important;
+        transform: none !important;
+        width: 230px !important;
+        text-align: left !important;
+        top: 56px !important;
+        display: block;
+        white-space: nowrap;
+    }
+
+    #rec481056998 .tn-elem[data-elem-id="1660824545949"] {
+        left: 24px !important;
+        top: 48px !important;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    #rec481056998 .tn-elem[data-elem-id="1660824545943"] {
+        left: 58px !important;
+        width: 220px !important;
+        top: 54px !important;
+    }
+
+    #rec481056998 .tn-elem[data-elem-id="1660824545949"] {
+        left: 14px !important;
+        top: 46px !important;
+    }
+}
